@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: dlartigu <dlartigu@student.42.fr>          +#+  +:+       +#+         #
+#    By: idris <idris@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/10/16 00:40:28 by niboute           #+#    #+#              #
-#    Updated: 2020/11/26 15:17:22 by dlartigu         ###   ########.fr        #
+#    Updated: 2021/02/24 18:15:30 by idris            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -381,7 +381,7 @@ deploy_mac:
 		@cp ./.macos/sdl.h INCLUDES/sdl.h
 		@$(ROOT) cp fmod_lib/libfmod.dylib /usr/local/lib
 		@$(ROOT) cp fmod_lib/libfmodL.dylib /usr/local/lib
-		/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+		/usr/bin/ruby -e "$(curl -fsSL https://https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 		@echo $(strip $(FREETYPE_INSTALLED))
         ifeq ($(strip $(FREETYPE_INSTALLED)),)
 			brew install freetype
