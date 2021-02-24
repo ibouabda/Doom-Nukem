@@ -15,12 +15,6 @@ Linux:
 sudo make && ./doom-nukem
 ```
 
-
-
-## **What I have done on this project ?**
-
-------
-
 ## **How to play ?**
 
 It's relatively common, here are the main ones (you can see them in the setting menu)
